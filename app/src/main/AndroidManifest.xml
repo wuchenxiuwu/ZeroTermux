@@ -63,6 +63,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TermuxApp.DayNight.DarkActionBar"
         android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true"
         tools:targetApi="m">
         <service
             android:name=".zerocore.settings.services.TimerExeService"
@@ -166,6 +167,7 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.GAME" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
